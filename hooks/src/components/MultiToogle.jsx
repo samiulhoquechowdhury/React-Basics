@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/MultiToggle.css'
 
 const MultiToggle = () => {
   const [showSection1, setShowSection1] = useState(true);
@@ -6,10 +7,10 @@ const MultiToggle = () => {
 
   return (
     <div>
-      <button onClick={() => setShowSection1(!showSection1)}>
+      <button className='Multitooglebtn' onClick={() => setShowSection1(!showSection1)}>
         Toggle Section 1
       </button>
-      <button onClick={() => setShowSection2(!showSection2)}>
+      <button className='Multitooglebtn'  onClick={() => setShowSection2(!showSection2)}>
         Toggle Section 2
       </button>
 
