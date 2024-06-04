@@ -1,5 +1,5 @@
 import React from 'react'
-import ColorChanger from './components/ColorChanger.jsx'
+import ColorChanger from './components/ColorChanger.js'
 
 const App = () => {
   return (

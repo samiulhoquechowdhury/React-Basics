@@ -1,6 +1,6 @@
 import React from 'react'
-import Counter from './components/Counter.jsx'
-import Cards from './components/Cards.jsx'
+import Counter from './components/Counter.js'
+import Cards from './components/Cards.js'
 
 function App() {
   return (
