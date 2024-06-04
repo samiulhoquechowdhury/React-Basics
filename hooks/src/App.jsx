@@ -1,10 +1,13 @@
 import React from 'react'
+import ToggleButton from './components/ToogleButton'
+import TextInput from './components/TextInput'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+     <ToggleButton/>
+     <TextInput/>
+    </>
   )
 }
 
