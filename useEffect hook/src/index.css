@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  width: 100%;
+  height: 100%;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282828;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  padding: 10px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+h1, p{
+  text-align: center;
+  color: #fff;
+}
