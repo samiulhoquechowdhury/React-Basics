@@ -16,9 +16,11 @@ const ThemedContent = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <div className={`content ${theme}`}>
+    <div className="container">
+      <div className={`content ${theme}`}>
       <h1>{theme === 'light' ? 'Light Theme' : 'Dark Theme'}</h1>
       <p>This is an example of using useContext in React.</p>
+    </div>
     </div>
   );
 };
