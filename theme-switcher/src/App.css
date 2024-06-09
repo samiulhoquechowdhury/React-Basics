@@ -1,13 +1,10 @@
-.container{
-    height: 100%;
-    width: 100%;
-}
 p{
     height: 500px;
 }
 
 .App {
     text-align: center;
+    padding: 20px;
   }
   
   .button {
