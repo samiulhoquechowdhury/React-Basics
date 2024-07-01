@@ -1,0 +1,43 @@
+.App{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid grey;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 30px;
+  border: none;
+  border: 1px solid rgb(191, 186, 186);
+  border-radius: 5px;
+}
+input::placeholder{
+  padding-left: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+  width: 100%;
+  border: none;
+  padding: 10px 0px;
+  border-radius: 5px;
+  background-color: rgb(108, 108, 211);
+  color: #fff;
+}
