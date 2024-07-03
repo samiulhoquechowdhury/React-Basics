@@ -22,9 +22,16 @@ const Calculator = () => {
               // value={height}
             />
           </div>
-          <button>Submit</button>
+          <button className="btn" type="submit">
+            Submit
+          </button>
+          <button className="btn" type="submit">
+            Reload
+          </button>
         </form>
       </div>
+
+      <div className="center"></div>
     </div>
   );
 };

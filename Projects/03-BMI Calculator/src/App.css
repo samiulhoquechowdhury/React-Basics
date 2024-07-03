@@ -1,3 +1,6 @@
+body{
+  background-color: #2c2b2b;
+}
 .App{
   position: absolute;
   top: 50%;
@@ -6,6 +9,7 @@
   border: 1px solid grey;
   padding: 20px 30px;
   border-radius: 10px;
+  color: #fff;
 }
 .container{
   display: flex;
@@ -21,8 +25,8 @@ label{
 }
 
 input{
-  width: 100%;
-  margin-top: 5px;
+  width: 98%;
+  margin-top: 5px; 
   margin-bottom: 20px;
   height: 30px;
   border: none;
@@ -40,4 +44,6 @@ button{
   border-radius: 5px;
   background-color: rgb(108, 108, 211);
   color: #fff;
+  margin-bottom: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
