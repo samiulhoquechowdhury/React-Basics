@@ -1,37 +1,42 @@
-//implement a simple todo list application with add and remove functionality.
+import React, { useState } from "react";
+import './stylesheets/Eight.css'
 
-import React, { useState } from 'react'
+const ToDo = () => {
+  const [tasks, setTasks] = useState([]);
+  const [task, setTask] = useState("");
 
-const Eight = () => {
-    const [input, setInput] = useState('');
-    const [todos, setTodos] = useState([]);
-
-    const addTodos = () => {
-      if(input.trim()!== ''){
-            setTodos([...todos,input]);
-            setInput('');
-      }
+  const handleAddTask = () => {
+    if (task.trim()) {
+      setTasks([...tasks, task]);
+      setTask("");
     }
-const removeTodo = (index) =>{
-  const updatedTodos = todos.filter((_,i)=>i !== index);
-  setTodos(updatedTodos);
-}
+  };
 
+  const handleRemoveTask = (index) => {
+    const newTasks = tasks.filter((_, i) => i !== index);
+    setTasks(newTasks);
+  };
 
   return (
     <div>
-        <input type="text" onChange={(e)=>setInput(e.target.value)}/>
-        <button onClick={addTodos}>Add</button>
-
-        <ul>
-          {todos.map((todo,index)=>(
-            <li key={index}>
-              {todo} <button onClick={()=>removeTodo(index)}> Remove</button>
-            </li>
-          ))}
-        </ul>
+      <h1>To-Do List</h1>
+      <input
+        type="text"
+        value={task}
+        onChange={(e) => setTask(e.target.value)}
+        placeholder="Add a new task"
+      />
+      <button onClick={handleAddTask}>Add Task</button>
+      <ul>
+        {tasks.map((task, index) => (
+          <li key={index}>
+            {task}{" "}
+            <button onClick={() => handleRemoveTask(index)}>Remove</button>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Eight;
+export default ToDo;
