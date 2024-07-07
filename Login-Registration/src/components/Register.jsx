@@ -14,9 +14,9 @@ const Register = ({ setRegistered }) => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <form className="bg-white p-6 rounded shadow-md w-full max-w-sm" onSubmit={handleRegister}>
-        <h1 className="text-lg font-bold mb-4">Register</h1>
+        <h1 className="text-xl font-bold mb-4">Register</h1>
         <div className="mb-4">
-          <label className="block text-gray-700">Username</label>
+          <label className="block text-gray-600">Username</label>
           <input
             type="text"
             className="w-full p-2 border border-gray-300 rounded mt-1"
@@ -35,7 +35,7 @@ const Register = ({ setRegistered }) => {
             required
           />
         </div>
-        <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded mt-4">
+        <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded mt-4 hover:bg-blue-800">
           Register
         </button>
       </form>
