@@ -11,6 +11,7 @@ import Nine from './components/Nine'
 import Ten from './components/Ten'
 import Eleven from './components/Eleven'
 import LoginRegistration from './components/LoginRegistration'
+import Weather from './components/Weather'
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       {/* <Nine/> */}
       {/* <Ten/> */}
       {/* <Eleven/> */}
-      <LoginRegistration/>
+      {/* <LoginRegistration/> */}
+      <Weather/>
     </>
   )
 }
