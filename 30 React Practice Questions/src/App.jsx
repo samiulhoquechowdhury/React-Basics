@@ -13,18 +13,19 @@ import Eleven from "./components/Eleven";
 import LoginRegistration from "./components/LoginRegistration";
 import Weather from "./components/Weather";
 import SearchBar from "./components/SearchBar";
+import Pagination from "./components/Pagination";
 
 const App = () => {
   // For search item app
-  // const items = [
-  //   "item 1",
-  //   "item 2",
-  //   "item 3",
-  //   "Another Item 1",
-  //   "Another item 2",
-  //   "lion",
-  //   "Tiger",
-  // ];
+  const items = [
+    "item 1",
+    "item 2",
+    "item 3",
+    "Another Item 1",
+    "Another item 2",
+    "lion",
+    "Tiger",
+  ];
   return (
     <>
       {/* <One /> */}
@@ -41,7 +42,8 @@ const App = () => {
       {/* <LoginRegistration/> */}
       {/* incomplete */}
       {/* <Weather/> */} 
-      <SearchBar items={items}/>
+      {/* <SearchBar items={items}/> */}
+      <Pagination items={items} itemsPerPage={2}/>
     </> 
   );
 };
