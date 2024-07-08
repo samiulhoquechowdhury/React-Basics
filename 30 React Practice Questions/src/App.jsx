@@ -14,6 +14,7 @@ import LoginRegistration from "./components/LoginRegistration";
 import Weather from "./components/Weather";
 import SearchBar from "./components/SearchBar";
 import Pagination from "./components/Pagination";
+import ColorPicker from "./components/ColorPicker";
 
 const App = () => {
   // For search item app
@@ -43,7 +44,8 @@ const App = () => {
       {/* incomplete */}
       {/* <Weather/> */} 
       {/* <SearchBar items={items}/> */}
-      <Pagination items={items} itemsPerPage={2}/>
+      {/* <Pagination items={items} itemsPerPage={2}/> */}
+      <ColorPicker/> 
     </> 
   );
 };
