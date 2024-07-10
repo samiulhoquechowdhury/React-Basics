@@ -16,6 +16,8 @@ import SearchBar from "./components/SearchBar";
 import Pagination from "./components/Pagination";
 import ColorPicker from "./components/ColorPicker";
 import NavMenu from "./components/NavMenu";
+import Darkmode from "./components/Darkmode";
+import DarkmodeContext from "./components/DarkmodeContext";
 
 const App = () => {
   // For search item app
@@ -47,7 +49,11 @@ const App = () => {
       {/* <SearchBar items={items}/> */}
       {/* <Pagination items={items} itemsPerPage={2}/> */}
       {/* <ColorPicker/> */}
-      <NavMenu/>
+      {/* <NavMenu/> */}
+      {/* <ThemeProvider>
+        <Darkmode />
+        <DarkmodeContext/>
+      </ThemeProvider> */}
     </>
   );
 };
