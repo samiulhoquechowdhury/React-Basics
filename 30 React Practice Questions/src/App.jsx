@@ -15,6 +15,7 @@ import Weather from "./components/Weather";
 import SearchBar from "./components/SearchBar";
 import Pagination from "./components/Pagination";
 import ColorPicker from "./components/ColorPicker";
+import NavMenu from "./components/NavMenu";
 
 const App = () => {
   // For search item app
@@ -42,11 +43,12 @@ const App = () => {
       {/* <Eleven/> */}
       {/* <LoginRegistration/> */}
       {/* incomplete */}
-      {/* <Weather/> */} 
+      {/* <Weather/> */}
       {/* <SearchBar items={items}/> */}
       {/* <Pagination items={items} itemsPerPage={2}/> */}
-      <ColorPicker/>
-    </> 
+      {/* <ColorPicker/> */}
+      <NavMenu/>
+    </>
   );
 };
 
