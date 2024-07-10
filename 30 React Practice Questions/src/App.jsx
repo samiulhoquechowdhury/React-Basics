@@ -18,15 +18,15 @@ import ColorPicker from "./components/ColorPicker";
 
 const App = () => {
   // For search item app
-  const items = [
-    "item 1",
-    "item 2",
-    "item 3",
-    "Another Item 1",
-    "Another item 2",
-    "lion",
-    "Tiger",
-  ];
+  // const items = [
+  //   "item 1",
+  //   "item 2",
+  //   "item 3",
+  //   "Another Item 1",
+  //   "Another item 2",
+  //   "lion",
+  //   "Tiger",
+  // ];
   return (
     <>
       {/* <One /> */}
@@ -45,7 +45,7 @@ const App = () => {
       {/* <Weather/> */} 
       {/* <SearchBar items={items}/> */}
       {/* <Pagination items={items} itemsPerPage={2}/> */}
-      <ColorPicker/> 
+      <ColorPicker/>
     </> 
   );
 };
