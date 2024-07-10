@@ -13,6 +13,12 @@ const ColorPicker = () => {
           width: "500px",
           height: "600px",
           backgroundColor: selectedColor,
+          display:'flex',
+          alignItems:'center',
+          justifyContent:'center',
+          fontFamily:"sans-serif",
+          fontSize:'50px',
+          fontWeight:'600'
         }}
       >
         Background
