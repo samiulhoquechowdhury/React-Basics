@@ -13,11 +13,12 @@ import Eleven from "./components/Eleven";
 import LoginRegistration from "./components/LoginRegistration";
 import Weather from "./components/Weather";
 import SearchBar from "./components/SearchBar";
-import Pagination from "./components/Pagination";
 import ColorPicker from "./components/ColorPicker";
 import NavMenu from "./components/NavMenu";
 import Darkmode from "./components/Darkmode";
 import DarkmodeContext from "./components/DarkmodeContext";
+import Todo from "./components/Todo";
+import Pagination from "./components/Pagination";
 
 const App = () => {
   // For search item app
@@ -54,6 +55,9 @@ const App = () => {
         <Darkmode />
         <DarkmodeContext/>
       </ThemeProvider> */}
+      {/* <Counter/> */}
+      {/* <Todo/> */}
+      <Pagination/>
     </>
   );
 };
