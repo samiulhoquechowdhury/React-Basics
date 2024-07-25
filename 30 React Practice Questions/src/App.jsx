@@ -19,6 +19,7 @@ import Darkmode from "./components/Darkmode";
 import DarkmodeContext from "./components/DarkmodeContext";
 import Todo from "./components/Todo";
 import Pagination from "./components/Pagination";
+import Auth from "./components/Auth";
 
 const App = () => {
   // For search item app
@@ -57,7 +58,8 @@ const App = () => {
       </ThemeProvider> */}
       {/* <Counter/> */}
       {/* <Todo/> */}
-      <Pagination/>
+      {/*<Pagination/>*/}
+      <Auth/>
     </>
   );
 };
