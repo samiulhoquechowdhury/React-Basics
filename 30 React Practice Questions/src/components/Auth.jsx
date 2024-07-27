@@ -3,7 +3,7 @@
 import React from "react";
 import { useAuth } from "./AuthContext";
 
-const Auth = () => {
+export default function Auth(){
   const [user, login, logout] = useAuth();
   return (
     <div>
@@ -20,4 +20,4 @@ const Auth = () => {
   );
 };
 
-export default Auth;
+// export default Auth;
